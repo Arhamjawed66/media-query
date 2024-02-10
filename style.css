@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+nav{
+    width: 100%;
+    /* padding: 10px; */
+    display: inline-block;
+   background-color: rgb(83, 15, 146);
+position: relative;
+}
+
+
+ul{
+    float: right;
+    text-decoration: none;
+ color: white;
+width: 90%;
+float: right;
+text-align: center;
+}
+
+ul li{
+ margin-left: 40px;
+    display: inline-block;
+    font-size: large;
+    padding: 7px;
+text-transform: capitalize;
+    text-align: center;
+margin: 10px;;
+
+}
+.li{
+margin-left:  150px;   
+}
+
+.logo img{
+    padding: 15px;
+    width: 125px;
+    margin-left: 180px;
+   
+ }
+ .logo{
+    float: left;
+    width:10% ;
+    position: static
+ }
+   
+ ul li:hover{
+text-decoration: underline; transition: 0.5s;color: rgb(250, 208, 208);cursor: pointer;
+ }
+ 
+ 
+.sectionlogo{
+    /* height: 100vh; */
+    background-image: url(./imges/Logo\ hero.jpg);
+     background-position: top;
+    background-repeat: no-repeat;
+text-align: center;
+}                                          
+.sectionlogo input{                            
+    margin-top: 100px;font-family: sans-serif;
+    padding: 10px;width: 30%;height: 70px;font-size: x-large;border-radius: 10px;
+}
+.sectionlogo button{
+    background-color: orangered;color: white;
+    margin-top: 100px;font-family: sans-serif;
+    font-size: x-large;padding: 20px;font-weight: bold; border-radius: 10px;
+}
+.sectionlogo button:hover{
+    font-size: 25px;transition: 0.5;cursor: pointer;
+}
+
+.heading h1{
+    text-align: center;;color: white;font-weight: 20;font-family: sans-serif;
+    font-size: 45px;padding: 100px
+    }
+     
+    .help p{
+       margin-right:7%; display: inline-block;padding: 5px;
+    }
+    .help{
+      text-align: center ;
+      color: white;font-family: sans-serif;
+      margin-top: 10px;font-size: 15px;font-weight: bold;
+    }
+    .sectionend{
+        border: 1px solid black;text-align: center;
+        background-color: rgb(202, 195, 195);
+    padding: 20px;font-size:20px;
+    }
+
+    /* -----------------------oneend--------------- */
+    
+    .sectiontwo{
+        text-align: center;
+        width: 100%;
+    }
+    .sectiontwo h1{
+        text-align: center;font-size: 50px;
+         }
+    
+    .sctnpic{
+      display: inline-block;margin-inline: 50px;margin-top: 5%;
+      color: rgb(16, 16, 139);font-weight: bold;
+      
+    }
+    .sctnpic img{
+        width: 100px;
+    }
+    .sctnpic:hover{
+        text-decoration: underline; background-color: rgb(233, 204, 204);
+      border-radius: 10px;cursor: pointer;
+    transition: 0.8s;
+    }
+    
+          /* -----------------------twoend----------------- */
+      
+    .sectionthree{
+        background-image: url(imges/Gains-Banner-970x280-background.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    height:500px;width:100%;text-align: center;position: relative;
+    }
+    .sectionmain h2{
+         text-align: left;margin-top: 150px;display: inline-block;
+         font-size: 50px;margin-right: 25%;
+    
+        }
+    .sectionmain h6{
+        width: 50%; text-align: left;margin: 20px; font-size: 25px;
+        display: inline-block;margin-right: 18%;
+    }
+           /* --------------- threeend--------------------- */
+.mainartical{
+    display: inline-block;text-align: center;margin-top:5%;text-transform: capitalize;
+font-family: Arial, Helvetica, sans-serif;
+}
+.mainartical h1{
+    font-size: 50px;font-weight: 100;
+}
+
+.aimg img{
+width: 550px;border-radius: 20px;margin-left:100px;}
+
+.aimg {margin-top:50px;float: left;width: 50%;
+    
+}
+.atext{
+    float: right;;width:50%;
+margin-top:50px ;}
+
+
+.atext h3{
+    margin-top: 25px;
+    font-size: 35px;
+    text-align: left;
+    margin-right: 300px; 
+}
+.atext p{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: left
+    
+    ;
+
+}
+.but button,a{
+    width: 300px; text-decoration: none;font-size: x-large;
+    color: rgb(16, 16, 139);
+    border: none;text-align: start;margin-top: 3%;background-color: transparent;
+}
+
+a:hover{
+    text-decoration: underline;transition: 0.5s;
+}
+/* --------------------------fourend------------------ */
+.articalabout{
+    display: inline-block;text-align: center;margin-top: 50px;
+    
+}
+.main{
+    font-size: 50px;font-weight: 100;
+}
+.articalmain{
+    float: left;width: 40%;margin-top: 100px;
+}
+.articalmain img{ 
+    width: 300px;border-radius: 10px;margin-left: 80px;
+
+}
+.maintext{
+    float: right;width: 60%;margin-top: 120px;text-align: left;
+    font-size: 20px;
+}
+.texta{
+    margin-bottom: 30px;
+}
+.textbattan button{
+   border: none;font-size: 15px;  padding: 20px;color: blue;
+   background-color: transparent;
+}
+.textbattan{
+    text-align: left;
+}
+.textbattan button:hover{
+    cursor: pointer;text-decoration: underline;
+}
+        /* -------------------fiveend-------------- */
+footer{
+     text-align: center;margin-top: 100px;
+    background-color: rgb(83, 15, 146);border: 1px solid black;
+}
+
+.mainf{
+    width: 40%;float: left;background-color: rgb(83, 15, 146);
+}
+.mainf h5{
+    font-size: 30px;text-align: center;
+    background-color: rgb(83, 15, 146);font-weight: 100;padding: 8px;color: white;
+}
+.mainlink{
+    background-color: rgb(83, 15, 146);width: 60%;
+    float: right;border-left: 3px solid rgb(3, 3, 5);
+}
+.mainlink img{
+    width: 500px;padding: 5px;
+} 
+  /* -----------------footarend---------------- */
+  @media only screen and (max-width: 1200px) {
+    .parentcontainer{
+        width: 100%;
+    }
+    .list{
+        display: none;
+    }
+    .logo{
+        display: flex;
+justify-content: center;
+    }
+    .sectionthree{
+        width: 100%;background-size: 700px;
+        
+     }
+     .sectionmain{
+        display: inline-block; 
+     }
+     .sectionmain h2{
+        font-size: 30px;font-weight: 100;
+     }
+     .sectionmain h6{
+        font-size: 20px;font-weight: 100;
+     }
+     .sectiontwo{
+        display: flex;flex-direction: column;flex-wrap: wrap;
+     }
+     .sectiontwo h1{
+        font-weight: 100;font-style: italic;
+     }
+     .atext {
+        margin-top: 0;
+        float: none;
+        width: 100%;
+        display: inline-block;
+        }
+        .atext h3{
+            margin-left:50px;text-align: center;width: 100%;
+            
+            
+        }
+        .atext p{
+            
+            text-align: center;
+            font-size: 30px;
+            margin-top: 10px;
+            
+        }
+
+     .aimg{
+        float: none;
+        width: 100%;
+     }
+     .main{
+        font-size:40px;
+        
+     }
+
+    
+  
+
+
+
+}
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 700px) {
+  body{
+    display: flex;
+   flex-wrap: wrap; 
+}
+
+.list ul{
+    display: none;
+}
+.logo img{
+    width: 200px;margin-left: 200px;
+}
+
+.sectionlogo{
+    background-image: url(./imges/hero_ModernMiracle_mobile_320x210.jpg);
+    background-size: cover;
+} 
+.help p{
+    width: 80%;text-align: center;font-size: 20px;margin-left: 10px;
+}
+.sectionend{
+    width: 100%;
+    padding: 5px;
+}
+.sectionthree{
+ width: 100%;
+}
+.sectionmain h2{font-size:35px;font-weight: 100;margin-left: 0;
+}
+.sectionmain h6{font-size: 20px;
+margin-right:250px;
+}
+.sectiontwo h1{
+    font-size: 30px;
+}
+.sctnpic{
+    display: flex;
+}
+
+.sctnpicdetail{
+    justify-content: center;margin-bottom: 5px;font-size: 20px;
+}
+.mainartical h1{
+    font-weight: 100;font-size: 35px;
+}
+.mainartical{
+    float: none;display: flex;flex-direction: column;
+}
+.atext p,h3{
+    font-size: 25px;text-align: left; width: 100%;
+    margin-left: 150px;margin-top: 10px;
+}
+.atext{
+    margin-top: 10px;
+}
+.aimg img{
+    width: 500px;
+}
+.but{
+    margin-left: 200px;
+}
+.articalabout h1{font-size: 30px;
+
+}
+.articalabout{
+    display: flex;flex-direction: column;
+}
+.articalmain{
+    margin-top: 10px;
+}
+.articalmain img{
+    margin-left: 200px;
+}
+.maintext{
+    width: 100%;margin-top: 10px;text-align: center;
+}
+.textbattan{
+    margin-left: 200px;
+}
+footer{
+    width: 100%;
+}
+}
+
+
+    
